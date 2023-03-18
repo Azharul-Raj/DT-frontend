@@ -18,4 +18,10 @@ button{
 }
 .details-card{
     padding: 25px 27px;
+    background-color: #E9ECEF;
+    margin: 27px 0;
+}
+.card-heading{
+    font-size: 20px;
+    margin-bottom: 8px;
 }
