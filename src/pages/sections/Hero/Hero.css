@@ -1,0 +1,21 @@
+.hero-container{
+    padding: 2% 10%;
+}
+.heading{
+    color:#0029FF;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: #0029FF;
+    color: white;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 10px;
+}
+.details-card{
+    padding: 25px 27px;
+}
