@@ -1,5 +1,6 @@
 import React from 'react'
 import BottomLeftCard from '../../../compontnts/BottomLeftCard'
+import BottomRightCard from '../../../compontnts/BottomRightCard'
 import TopLeftCard from '../../../compontnts/TopLeftCard'
 import TopRightCard from '../../../compontnts/TopRightCard'
 import "./Cards.css"
@@ -14,6 +15,7 @@ export default function Cards() {
       </div>
         <div className="bottom-cards">
           <BottomLeftCard/>
+          <BottomRightCard/>
         </div>
         </div>
         </>
