@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="hero-container">
       <div className="title">
         <h2 className="heading">Technical Project Management</h2>
-        <button>Submit task</button>
+        <button className="hero-btn">Submit task</button>
       </div>
       {/* card part */}
       <div className="details-card">

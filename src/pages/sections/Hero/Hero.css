@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
 }
-button{
+.hero-btn{
     background-color: #0029FF;
     color: white;
     border: none;

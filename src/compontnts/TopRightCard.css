@@ -8,6 +8,10 @@
 .threadbuild-bottom-container {
   margin: 5% 5%;
 }
+.small-input-main{    
+  display: flex;
+  justify-content: space-between;
+}
 .small-input-container {
     width: 200px;
   background-color: #f6f6f6;
@@ -33,8 +37,56 @@ input{
 input::placeholder{
     position: absolute;
     padding-left: 7px;
-    top: 2px;
+    top: 2px;    
 }
 .small-input:active{
     border: none;
+}
+.threadbuild-icon{
+    height: 25px;
+    width: 20px;
+    display: inline-block;
+    color: #323232;  
+    margin: 0 4px;
+}
+.category-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.category-btn-icon{
+    font-size: 20px;
+    top: 5px;
+    text-align: center;
+}
+.sub-thread-btn{
+    background-color: #0029FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.large-div{
+    margin: 30px 0;
+}
+.large-input-container {
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+}
+.large-input{
+    border: none;
+    height: 85px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+
 }
