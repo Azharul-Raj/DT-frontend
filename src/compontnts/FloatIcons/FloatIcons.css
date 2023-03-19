@@ -1,0 +1,25 @@
+.main-float{
+    position: relative;
+}
+.float-icons-container{
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+
+}
+.float-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    padding: 22px 24px;
+    background-color: #0029FF;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+}
+.float-icon{
+    color: white;
+    height: 40px;
+    width: 37px;
+}
