@@ -1,4 +1,3 @@
-import React from "react";
 import "./TopLeftCard.css";
 import { FaInfoCircle } from "react-icons/fa";
 import image from "../assets/youtube.png";
