@@ -1,0 +1,46 @@
+.right-float{
+    position: relative;
+}
+.right-float-card{
+    height: 394px;
+    width: 95px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.right-float-container{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+
+}
+.right-float-content{
+    width: 45px;
+    height: 394px;
+    background-color: #000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.cross-icon{
+    color: white;
+    margin: 20px 13px 27px 14px;
+    display: inline-block;
+    height: 20px;
+    stroke-width: 1px;
+}
+.top-float-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-float-text{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-float-text{
+    color: white;
+}
