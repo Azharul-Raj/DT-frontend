@@ -1,0 +1,9 @@
+.top-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
