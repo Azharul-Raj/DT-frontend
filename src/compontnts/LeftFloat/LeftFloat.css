@@ -1,0 +1,78 @@
+.left-float-container {
+  position: absolute;
+}
+.left-float-card {
+  width: 120px;
+  height: 692px;
+  background: #fdfdfd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0px 20px 20px 20px;
+}
+.left-float-top {
+  width: 120px;
+  height: 50px;
+  background: #000000;
+  border-radius: 0px 20px 0px 0px;
+}
+.left-float-title {
+  display: flex;
+  justify-content: start;
+  color: white;
+  padding-left: 18px;
+}
+.number-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  left: 32px;
+  top: 166px;
+  border: 1px solid #0029ff;
+  border-radius: 20px;
+}
+.number-container {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  font-size: 36px;
+  color: #0029ff;
+}
+/* on open css */
+.active-card {
+  transition: all;
+  width: 392px;
+  height: 692px;
+  background: #fdfdfd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0px 20px 20px 20px;
+  z-index: 100;
+  position: sticky;
+}
+.active-top{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 392px;
+    height: 50px;
+    background: #000000;
+    border-radius: 0px 20px 0px 0px;
+}
+.active-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.list-title{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin: 20px 0 20px 15px;
+
+}
