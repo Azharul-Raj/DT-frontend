@@ -12,8 +12,11 @@
     align-items: center;
 }
 .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3683F0;
-    padding: 6px 8px;
+    padding: 6px 6px;
     border-radius: 50%;
     margin: 0 11px;
 }

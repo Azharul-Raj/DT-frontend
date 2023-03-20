@@ -8,14 +8,20 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 0px 20px 20px 20px;
+  transition: all 0.3s ease-out;
+  position: sticky;
+  z-index: 10;
 }
 .left-float-top {
   width: 120px;
   height: 50px;
   background: #000000;
   border-radius: 0px 20px 0px 0px;
+  transition: all 0.3s ease-out;
 }
 .left-float-title {
+    transition: all 1.8s ease-in;
+    
   display: flex;
   justify-content: start;
   color: white;
@@ -44,7 +50,7 @@
 }
 /* on open css */
 .active-card {
-  transition: all;
+    transition: all 0.3s ease-in;
   width: 392px;
   height: 692px;
   background: #fdfdfd;
@@ -55,6 +61,7 @@
   position: sticky;
 }
 .active-top{
+    transition: all 0.3s ease-in;
     display: flex;
     justify-content: start;
     align-items: center;
